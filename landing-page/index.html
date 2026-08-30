@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rotas Inteligentes está em desenvolvimento e busca operações de vans universitárias para a validação inicial." />
+    <meta name="theme-color" content="#102A43" />
+    <meta property="og:title" content="Rotas Inteligentes | Validação inicial" />
+    <meta property="og:description" content="Validação inicial para operações de vans universitárias." />
+    <meta property="og:image" content="public/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rotas Inteligentes | Validação inicial" />
+    <meta name="twitter:description" content="Validação inicial para operações de vans universitárias." />
+    <meta name="twitter:image" content="public/og.png" />
+    <title>Rotas Inteligentes | Validação inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-theme="terra">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container navigation">
+        <a class="brand" href="#inicio" aria-label="Rotas Inteligentes — início">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>Rotas <strong>Inteligentes</strong></span>
+        </a>
+        <nav aria-label="Navegação principal">
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#para-quem-e">Para quem é</a>
+        </nav>
+        <div class="theme-switcher" role="group" aria-label="Escolha a aparência da página">
+          <button type="button" data-theme-option="terra" aria-pressed="true">Terra</button>
+          <button type="button" data-theme-option="urbano" aria-pressed="false">Urbano</button>
+          <button type="button" data-theme-option="noturno" aria-pressed="false">Noite</button>
+        </div>
+        <a class="button button-small" href="#formulario" data-validation-cta>Participar da validação</a>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section id="inicio" class="hero section-dark">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Em desenvolvimento • validação inicial</p>
+            <h1>Menos mensagens repetitivas. Mais previsibilidade para sua van universitária.</h1>
+            <p class="hero-text">O Rotas Inteligentes está sendo desenvolvido para ajudar operações de vans universitárias a organizar passageiros, pontos e avisos de viagem — sem complicar a rotina de quem está dirigindo.</p>
+            <a class="button button-large" href="#formulario" data-validation-cta>Quero participar da validação inicial <span aria-hidden="true">→</span></a>
+            <p class="microcopy">Sem compromisso de compra. Primeiro queremos entender a sua operação.</p>
+          </div>
+          <div class="hero-visual" aria-label="Interface conceitual de uma viagem em andamento">
+            <p class="concept-label">Interface conceitual</p>
+            <div class="route-line" aria-hidden="true"></div>
+            <div class="phone">
+              <div class="phone-speaker" aria-hidden="true"></div>
+              <div class="phone-screen">
+                <div class="map-head"><span>Qua, 18:10</span><span class="signal">● ● ●</span></div>
+                <div class="map-area" aria-hidden="true">
+                  <span class="street street-one"></span><span class="street street-two"></span><span class="street street-three"></span>
+                  <span class="route route-a"></span><span class="route route-b"></span><span class="route route-c"></span>
+                  <span class="map-pin pin-one"></span><span class="map-pin pin-two"></span><span class="map-pin pin-three"></span>
+                  <span class="van-dot">▰</span>
+                </div>
+                <div class="trip-card"><span class="pulse"></span><div><small>VIAGEM ATIVA</small><strong>Jaú → Bauru</strong></div><b>18:10</b></div>
+              </div>
+            </div>
+            <div class="float-card float-top"><span class="card-icon icon-check">✓</span><div><small>Aviso enviado</small><b>Todos informados</b></div></div>
+            <div class="float-card float-bottom"><span class="card-icon icon-pin">⌖</span><div><small>Próximo ponto</small><b>Av. das Nações</b></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pain-section">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow eyebrow-light">A rotina como ela é hoje</p>
+            <h2>Quando tudo passa pelo WhatsApp, a operação fica mais difícil para todos.</h2>
+          </div>
+          <div class="pain-grid">
+            <article class="pain-card"><span class="number">01</span><h3>As mesmas perguntas todos os dias</h3><p>“Onde a van está?”, “Vai atrasar?” e “Já passou no ponto?” se repetem durante a rota.</p></article>
+            <article class="pain-card"><span class="number">02</span><h3>Atrasos e faltas viram confusão</h3><p>A informação chega tarde, fica espalhada em conversas ou não chega a quem precisa.</p></article>
+            <article class="pain-card"><span class="number">03</span><h3>Controle manual demais</h3><p>Passageiros, pontos, horários e mudanças dependem de planilha, papel, memória e mensagens.</p></article>
+          </div>
+          <p class="section-closing">A consequência é pressão sobre o motorista, mais trabalho para o gestor e pouca previsibilidade para os estudantes.</p>
+        </div>
+      </section>
+
+      <section id="para-quem-e" class="section proposal-section">
+        <div class="container proposal-layout">
+          <div class="section-heading"><p class="eyebrow eyebrow-light">Feito a partir da rotina real</p><h2>O que estamos construindo junto das operações parceiras.</h2></div>
+          <div class="profiles">
+            <article><span class="profile-icon">◫</span><div><h3>Para o gestor</h3><p>Organizar passageiros, pontos e rotas em um só lugar.</p></div></article>
+            <article><span class="profile-icon">↗</span><div><h3>Para o motorista</h3><p>Iniciar a viagem com poucos toques e receber menos interrupções.</p></div></article>
+            <article><span class="profile-icon">⌁</span><div><h3>Para o estudante</h3><p>Acompanhar a viagem ativa e receber avisos importantes.</p></div></article>
+          </div>
+        </div>
+        <div class="container"><aside class="essential-note"><span aria-hidden="true">✦</span><p>A primeira versão será focada no essencial. As prioridades serão definidas a partir das conversas e dos testes com operações reais.</p></aside></div>
+      </section>
+
+      <section class="section clear-section">
+        <div class="container clear-layout">
+          <p class="eyebrow eyebrow-light">Limites claros</p>
+          <div><h2>Uma ferramenta para organizar a operação, não para substituir tudo.</h2><p class="large-copy">O Rotas Inteligentes não substitui o Waze para navegação e não pretende proibir o WhatsApp. A proposta é reduzir a comunicação repetitiva e organizar a parte operacional da rotina.</p><p class="privacy-note"><span aria-hidden="true">⌾</span>A localização será usada apenas durante viagens ativas e o acesso às informações da rota será restrito às pessoas autorizadas.</p></div>
+        </div>
+      </section>
+
+      <section class="section pilot-section">
+        <div class="container">
+          <div class="section-heading centered"><p class="eyebrow eyebrow-light">Validação inicial</p><h2>O custo de testar é nosso. O seu feedback ajuda a construir a solução certa.</h2><p>Para as operações selecionadas, o Rotas Inteligentes assume a configuração inicial, o acesso à versão piloto, a infraestrutura e o acompanhamento durante o período de teste.</p></div>
+          <div class="commitment-grid">
+            <article class="commitment-card receive"><p class="card-overline">O parceiro recebe</p><ul><li>Configuração inicial de rotas, pontos e passageiros;</li><li>Acesso sem custo à versão piloto pelo período combinado;</li><li>Suporte direto e acompanhamento da equipe;</li><li>Espaço real para influenciar as prioridades do produto.</li></ul></article>
+            <article class="commitment-card contribute"><p class="card-overline">O parceiro contribui com</p><ul><li>Uma conversa de descoberta sobre a rotina atual;</li><li>Feedback honesto durante o uso, se for selecionado para o piloto;</li><li>Permissão para medir resultados de forma agregada e confidencial.</li></ul></article>
+          </div>
+          <div class="transparency"><span aria-hidden="true">✓</span><p><strong>Transparência em primeiro lugar.</strong> Se o piloto não gerar valor, a operação pode sair. Sem permanência obrigatória e sem compromisso de compra.</p></div>
+          <p class="center-action"><a class="button" href="#formulario" data-validation-cta>Quero conhecer a validação inicial <span aria-hidden="true">→</span></a></p>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section steps-section">
+        <div class="container"><div class="section-heading"><p class="eyebrow eyebrow-light">Como funciona</p><h2>Da conversa ao piloto, com clareza em cada etapa.</h2></div>
+          <ol class="steps"><li><span>01</span><div><h3>Você demonstra interesse</h3><p>Conte brevemente como a sua operação funciona.</p></div></li><li><span>02</span><div><h3>Nós ouvimos a sua rotina</h3><p>Marcamos uma conversa de aproximadamente 20 minutos, sem compromisso comercial.</p></div></li><li><span>03</span><div><h3>Avaliamos a aderência</h3><p>Se houver dor real e compatibilidade com a primeira versão, a operação poderá ser convidada para o piloto acompanhado.</p></div></li></ol>
+        </div>
+      </section>
+
+      <section id="formulario" class="form-section">
+        <div class="container form-layout"><div class="form-intro"><p class="eyebrow">Próximo passo</p><h2>Vamos entender se o Rotas faz sentido para a sua operação.</h2><p>Conte um pouco sobre sua rotina. Vamos analisar as informações e entrar em contato caso haja aderência com a validação inicial.</p><div class="contact-optional"><span aria-hidden="true">◌</span><p>Prefere falar por WhatsApp? <button type="button" class="text-link" data-whatsapp-button>Iniciar conversa</button></p></div></div>
+          <form id="lead-form" class="lead-form" novalidate>
+            <div class="honeypot" aria-hidden="true"><label for="company">Empresa</label><input id="company" name="company" tabindex="-1" autocomplete="off" /></div>
+            <div class="form-field"><label for="name">Nome completo <em aria-hidden="true">*</em></label><input id="name" name="name" type="text" autocomplete="name" required /><p class="field-error" id="name-error"></p></div>
+            <div class="form-field"><label for="role">Seu papel na operação <em aria-hidden="true">*</em></label><select id="role" name="role" required><option value="">Selecione uma opção</option><option>Dono/gestor</option><option>Motorista</option><option>Outro</option></select><p class="field-error" id="role-error"></p></div>
+            <div class="form-row"><div class="form-field"><label for="city">Cidade <em aria-hidden="true">*</em></label><input id="city" name="city" type="text" placeholder="Ex.: Jaú/SP" required /><p class="field-error" id="city-error"></p></div><div class="form-field"><label for="operation_size">Quantidade de vans ou rotas <em aria-hidden="true">*</em></label><select id="operation_size" name="operation_size" required><option value="">Selecione</option><option>1</option><option>2 a 5</option><option>6 ou mais</option><option>Não sei informar</option></select><p class="field-error" id="operation_size-error"></p></div></div>
+            <div class="form-field"><label for="whatsapp">WhatsApp <em aria-hidden="true">*</em></label><input id="whatsapp" name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel" placeholder="(00) 00000-0000" required aria-describedby="whatsapp-hint" /><p id="whatsapp-hint" class="field-hint">Usaremos somente para entrar em contato sobre a validação.</p><p class="field-error" id="whatsapp-error"></p></div>
+            <div class="form-field"><label for="pain">Maior dificuldade hoje <span>(opcional)</span></label><textarea id="pain" name="pain" maxlength="500" rows="4" aria-describedby="pain-count"></textarea><p id="pain-count" class="field-hint">0 de 500 caracteres</p></div>
+            <div class="checkbox-field"><input id="consent" name="consent" type="checkbox" required /><label for="consent">Autorizo o contato de Emanuel Santos para conversar sobre a validação inicial do Rotas Inteligentes. Meus dados serão usados apenas para esse contato.</label></div><p class="field-error" id="consent-error"></p>
+            <p class="form-privacy">Ao enviar, você confirma que leu a <button type="button" class="text-link" data-privacy-button>Política de privacidade</button>.</p>
+            <button class="button button-submit" type="submit"><span class="button-label">Solicitar conversa inicial</span><span class="button-loading" aria-hidden="true">Enviando…</span></button>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section faq-section"><div class="container faq-layout"><div class="section-heading"><p class="eyebrow eyebrow-light">Dúvidas frequentes</p><h2>Antes de conversar, alguns pontos importantes.</h2></div><div class="faq-list">
+        <details><summary>O produto já está pronto?<span aria-hidden="true">+</span></summary><p>Não. Estamos na fase de validação e desenvolvimento da primeira versão.</p></details>
+        <details><summary>Participar custa alguma coisa?<span aria-hidden="true">+</span></summary><p>Nesta etapa não existe compromisso de compra. As operações selecionadas para o piloto recebem acesso e acompanhamento sem custo pelo período combinado.</p></details>
+        <details><summary>O motorista precisará usar o celular enquanto dirige?<span aria-hidden="true">+</span></summary><p>Não. O fluxo será pensado para reduzir interações e evitar distração durante a viagem.</p></details>
+        <details><summary>O Rotas substitui Waze ou WhatsApp?<span aria-hidden="true">+</span></summary><p>Não. Ele organiza a operação e reduz mensagens repetitivas; o motorista continua usando a ferramenta de navegação que já conhece.</p></details>
+        <details><summary>Posso sair do piloto?<span aria-hidden="true">+</span></summary><p>Sim. A participação não cria obrigação de continuidade nem compromisso de compra.</p></details>
+      </div></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-content"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Rotas <strong>Inteligentes</strong></span></a><p>Rotas Inteligentes — produto em desenvolvimento por Emanuel Santos.</p><div class="footer-links"><button type="button" class="footer-link" data-whatsapp-button>WhatsApp</button><button type="button" class="footer-link" data-privacy-button>Privacidade</button></div><p class="copyright">© <span id="year"></span> Rotas Inteligentes</p></div></footer>
+
+    <dialog id="privacy-dialog" class="privacy-dialog" aria-labelledby="privacy-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fechar política de privacidade" data-close-dialog>×</button><p class="eyebrow eyebrow-light">Privacidade</p><h2 id="privacy-title">Seus dados, apenas para esta conversa.</h2><p>Coletamos somente as informações necessárias para avaliar a aderência da sua operação à validação inicial e entrar em contato: nome, papel, cidade, porte da operação, WhatsApp e a dificuldade que você optar por informar.</p><p>Não coletamos a localização do visitante por esta página. Seus dados não serão vendidos ou usados para finalidades diferentes desta conversa.</p><p>Para solicitar a exclusão do seu contato, fale com Emanuel Santos pelo canal de WhatsApp informado nesta página.</p></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
