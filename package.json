@@ -1,0 +1,12 @@
+{
+  "name": "rotas-inteligentes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Landing page de validação inicial do Rotas Inteligentes.",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
